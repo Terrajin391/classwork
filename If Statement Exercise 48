@@ -1,0 +1,39 @@
+birthyear = int(input("Enter your birthyear:"))
+
+if birthyear % 12 == 0:
+    zodiac = "Monkey"
+
+if birthyear % 12 == 1:
+    zodiac = "Rooster"
+
+if birthyear % 12 == 2:
+    zodiac = "Dog"
+
+if birthyear % 12 == 3:
+    zodiac = "Pig"
+
+if birthyear % 12 == 4:
+    zodiac = "Rat"
+
+if birthyear % 12 == 5:
+    zodiac = "Ox"
+
+if birthyear % 12 == 6:
+    zodiac = "Tiger"
+
+if birthyear % 12 == 7:
+    zodiac = "Hare"
+
+if birthyear % 12 == 8:
+    zodiac = "Dragon"
+
+if birthyear % 12 == 9:
+    zodiac = "Snake"
+
+if birthyear % 12 == 10:
+    zodiac = "Horse"
+
+if birthyear % 12 == 11:
+    zodiac = "Sheep"
+
+print ("Your Chinese Zodiac sign is", zodiac+".")
