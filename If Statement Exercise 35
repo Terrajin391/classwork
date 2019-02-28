@@ -1,0 +1,14 @@
+human_years = int(input("Enter number of human years:"))
+
+if human_years > 2:
+    leftover_dog_years = (human_years - 2) * 4
+    first_two_dog_years = (2) * 10.5
+    dog_years = leftover_dog_years + first_two_dog_years
+    print ("The number of dog years is", dog_years)
+
+if human_years > 0 < 2 or human_years == 2:
+    dog_years = human_years * 10.5
+    print ("The number of dog years is", dog_years)
+
+if human_years < 0:
+    print ("Can not process negative numbers.")
